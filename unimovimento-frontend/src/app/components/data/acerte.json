@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "title":"Missão",
+        "icon":"flaticon-cross",
+        "htmltext":"<p>Orientar casais de namorados e noivos, através da Bíblia e dados científicos, a respeito das principais que envolvem a escolha de um cônjuge e o casamento, visando auxiliá-los na decisão de casar-se ou não e instrumentalizando-os para a construção de um relacionamento saudável.</p>"
+    },
+    {
+        "id":2,
+        "title":"Visão",
+        "icon":"flaticon-magnifying-glass",
+        "htmltext":"<p>Ser uma referência em ensino para casais de namorados e noivos, estimulando-os a se preparem para os desafios e propósitos da vida a dois, e contribuindo para que os casamentos só venham a ser estabelecidos mediante escolhas assertivas.</p>"
+    },
+    {
+        "id":3,
+        "title":"Valores",
+        "icon":"flaticon-bible",
+        "htmltext":"<p>- Compromisso com Cristo e sua Palavra. <br/> - Fundamentação científica.<br/> - Equipe habilitada e capacitada. <br/> - Veracidade. <br/> - Organização.<br/>- Comprometimento.<br/>- Dinamismo.<br/>- Comunicação.</p>"
+    }
+]

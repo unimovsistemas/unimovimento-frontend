@@ -1,0 +1,40 @@
+<!-- Post Content Start -->
+<div class="section sigma_post-single" *ngFor="let item of blogdetails">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-1">
+                <div class="post-detail-wrapper">
+                    <div class="entry-content">
+                        <h4 class="entry-title">{{item.title}}</h4>
+                        <div class="sigma_post-meta">
+                            <a routerLink="/blog-details/{{item.id}}"> <i class="far fa-calendar"></i> {{item.postdate}}</a>
+                            <a routerLink="/blog-details/{{item.id}}"> <i class="far fa-eye"></i> {{item.views}} Views</a>
+                        </div>
+                        <div [innerHtml]="item.htmltext"></div>
+                    </div>
+                    <!-- Post Meta Start -->
+                    <div class="sigma_post-single-meta">
+                        <div class="sigma_post-single-meta-item">
+                            <h6>Autor</h6>
+                            <p>@any.fragoso</p>
+                        </div>
+                        <div class="sigma_post-single-meta-item sigma_post-share">
+                            <h6>Compartilhar</h6>
+                            <ul class="sigma_sm">
+                                <!-- Data -->
+                                <li *ngFor="let social of socialShare(item.title)">
+                                    <a href="javascript:void(0)" (click)="openSocialPopup(social)">
+                                        <i [class]="social.iconClass"></i>
+                                    </a>
+                                </li>
+                                <!-- Data -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Post Meta End -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Post Content End -->

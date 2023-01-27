@@ -1,0 +1,111 @@
+<!-- partial:partia/__sidenav.html -->
+<aside class="sigma_aside sigma_aside-right sigma_aside-right-panel sigma_aside-bg"
+    [ngClass]="canvasMethod ? 'open':''">
+    <app-canvas></app-canvas>
+</aside>
+<div class="sigma_aside-overlay aside-trigger-right" (click)="toggleCanvas()"></div>
+<!-- partial -->
+<!-- partial:partia/__mobile-nav.html -->
+<aside class="sigma_aside sigma_aside-left" [ngClass]="navMethod ? 'open':''">
+    <app-mobile-menu></app-mobile-menu>
+</aside>
+<div class="sigma_aside-overlay aside-trigger-left" (click)="toggleNav()"></div>
+<!-- partial -->
+<!-- Search Start -->
+<div class="sigma_search-form-wrapper" [ngClass]="searchMethod ? 'open':''">
+    <div class="sigma_search-trigger close-btn" (click)="toggleSearch()">
+        <span></span>
+        <span></span>
+    </div>
+    <form class="sigma_search-form">
+        <input type="text" placeholder="Search...">
+        <button type="submit" class="sigma_search-btn">
+            <i class="fal fa-search"></i>
+        </button>
+    </form>
+</div>
+<!-- Search End -->
+<!-- partial:partia/__header.html -->
+<header class="sigma_header header-2 can-sticky" [ngClass]="windowScrolled ? 'sticky':''">
+    <!-- Middle Header Start -->
+    <div class="sigma_header-middle">
+        <nav class="navbar">
+            <!-- Controls -->
+            <div class="sigma_header-controls style-2">
+                <ul class="sigma_header-controls-inner">
+                    <!-- Desktop Toggler -->
+                    <li class="aside-toggler style-2 aside-trigger-right desktop-toggler" (click)="toggleCanvas()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </li>
+                    <!-- Mobile Toggler -->
+                    <li class="aside-toggler style-2 aside-trigger-left" (click)="toggleNav()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Menu -->
+            <ul class="navbar-nav">
+                <!-- Data -->
+                <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                *ngFor="let item of navigation">
+                <a href="javascript:void(0)" *ngIf="item.child">{{item.linkText}}</a>
+                <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                <ul class="sub-menu" *ngIf="item.child">
+                    <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                        *ngFor="let item of item.submenu">
+                        <a href="javascript:void(0)" *ngIf="item.child">{{item.linkText}}</a>
+                        <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                        <ul class="sub-menu" *ngIf="item.child">
+                            <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                                *ngFor="let item of item.submenu">
+                                <a routerLink="{{item.link}}">{{item.linkText}}</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <!-- Data -->
+            </ul>
+            <!-- Logo Start -->
+            <div class="sigma_logo-wrapper">
+                <a routerLink="/" class="navbar-brand">
+                    <img src="assets/img/logo.png" alt="logo">
+                </a>
+            </div>
+            <!-- Logo End -->
+            <!-- Button & Phone -->
+            <div class="sigma_header-controls sigma_header-button">
+                <a href="tel:+123456789" class="sigma_header-contact">
+                    <i class="flaticon-telephone"></i>
+                    <div class="sigma_header-contact-inner">
+                        <span>Get Support</span>
+                        <h6>987-879-428-48</h6>
+                    </div>
+                </a>
+                <a routerLink="/donation" class="sigma_btn-custom"> Donate Now </a>
+            </div>
+            <!-- Controls -->
+            <div class="sigma_header-controls style-1">
+                <a href="javascript:void(0)" class="sigma_search-trigger" (click)="toggleSearch()"> <i class="flaticon-magnifying-glass"></i> </a>
+            </div>
+        </nav>
+    </div>
+    <!-- Middle Header End -->
+</header>
+<!-- partial -->

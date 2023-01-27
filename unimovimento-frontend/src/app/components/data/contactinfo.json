@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "subtitle":"Send Email",
+        "title":"Email Address",
+        "text":[
+            "info@example.com",
+            "support@example.com"
+        ],
+        "icon":"flaticon-email"
+    },
+    {
+        "id":2,
+        "subtitle":"Call Us Now",
+        "title":"Phone Number",
+        "text":[
+            "+123 478 390",
+            "+489 472 928"
+        ],
+        "icon":"flaticon-telephone"
+    },
+    {
+        "id":3,
+        "subtitle":"Find Us Here",
+        "title":"Location",
+        "text":[
+            "16/A Daddy Yankee Tower",
+            "New York, US"
+        ],
+        "icon":"flaticon-paper-plane"
+    }
+]

@@ -1,0 +1,33 @@
+<!-- Blog Start -->
+<div class="section section-padding primary-overlay bg-cover bg-center" [style.background-image]="'url(assets/img/bg3.jpg)'">
+    <div class="container">
+        <div class="section-title text-center">
+            <h4 class="title text-white">Novas Postagens</h4>
+        </div>
+        <div class="row">
+            <!-- Article Start -->
+            <div class="col-lg-4 col-md-6" *ngFor="let item of getRecentPost()">
+                <article class="sigma_post">
+                    <div class="sigma_post-thumb">
+                        <a routerLink="/blog-details/{{item.id}}">
+                            <img [src]="item.image[0]" [alt]="item.title">
+                        </a>
+                    </div>
+                    <div class="sigma_post-body">
+                        <div class="sigma_post-meta">
+                            <a routerLink="/blog-details/{{item.id}}" class="sigma_post-date"> <i class="far fa-calendar"></i>{{item.postdate}}</a>
+                        </div>
+                        <h5> <a routerLink="/blog-details/{{item.id}}">{{item.title}}</a> </h5>
+                        <div class="sigma_post-single-author">
+                            <div class="sigma_post-single-author-content">
+                                By <p>{{item.author}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Article End -->
+        </div>
+    </div>
+</div>
+<!-- Blog End -->

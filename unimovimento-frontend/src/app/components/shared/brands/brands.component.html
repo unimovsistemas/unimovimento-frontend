@@ -1,0 +1,15 @@
+<!-- Clients Start -->
+<div class="section section-padding primary-bg pattern-map">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Data -->
+            <div class="col" *ngFor="let item of clients | slice:0:5">
+                <div class="sigma_client">
+                    <img [src]="item.image" alt="client">
+                </div>
+            </div>
+            <!-- Data -->
+        </div>
+    </div>
+</div>
+<!-- Clients End -->

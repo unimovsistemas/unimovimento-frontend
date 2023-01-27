@@ -1,0 +1,38 @@
+<!-- Banner Start -->
+<div class="sigma_banner banner-1 bg-cover bg-center bg-norepeat" [style.background-image]="'url(assets/img/home-01.jpeg)'">
+    <ngx-slick-carousel [config]="settings" class="sigma_banner-slider">
+        <!-- Banner Item Start -->
+        <div ngxSlickItem class="sigma_banner-slider-inner" *ngFor="let item of listBanner">
+            <div class="sigma_banner-text">
+                <div class="container position-relative">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="sigma_box primary-bg banner-cta">
+                                <h1 class="text-white title">{{item.titulo}}</h1>
+                                <div class="blockquote light light-border mb-0">
+                                    <ul class="sigma_sermon-descr m-0" *ngFor="let info of item.informacao">
+                                        <li>
+
+                                            {{info.dia}} <span *ngIf="info.dia"> - </span>
+                                            <i class="far fa-calendar-check" *ngIf="info.data"></i> {{info.data}}
+                                            <i class="far fa-clock" *ngIf="info.horario"></i> {{info.horario}}
+                                        </li>
+                                    </ul>
+                                    <span *ngIf="item.local">
+                                            <br/>
+                                            <i class="far fa-map-marker-alt"></i> {{item.local}}
+                                    </span>
+                                </div>
+                                <div class="section-button d-flex align-items-center">
+                                    <a href="{{item.link}}" class="ms-3 sigma_btn-custom light text-white">Acessar <i class="far fa-arrow-right"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner Item End -->
+    </ngx-slick-carousel>
+</div>
+<!-- Banner End -->

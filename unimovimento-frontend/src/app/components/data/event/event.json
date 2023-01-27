@@ -1,0 +1,197 @@
+[
+    {
+        "id": 1,
+        "title": "Which is the same as saying.",
+        "image": "assets/img/events/1.jpg",
+        "shorttext": "You should be able to find several indispensable facts about motivation in the following paragraphs. If there’s at least one fact you didn’t know before, imagine the difference it might make. It’s so difficult to go on when everything seems to fail, isn’t it.",
+        "eventdate": "31 August 2022",
+        "eventtime": "Sunday (8:00 am -9:00 am)",
+        "location": "56 Thatcher Avenue River Forest",
+        "organizer": "Event Planer",
+        "phone": "+02 1565 1236",
+        "email": "example@example.com",
+        "tags": [
+            1,
+            2,
+            3
+        ],
+        "speakers": [
+            1,
+            2,
+            3
+        ],
+        "htmltext": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><hr><h4>Setting the mood with incense</h4><div class='row align-items-center'><div class='col-lg-6'><ul class='sigma_list sigma_list-2'><li>Lorem ipsum dolor sit amet, consectur</li><li>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do</li><li>Lorem ipsum dolor sit amet, consectur</li><li>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do</li></ul></div></div><blockquote><cite>By Hetmayar</cite><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p></blockquote><hr><div class='row align-items-center'><div class='col-lg-5 col-xl-4 mb-lg-30'> <img src='assets/img/events/details/3.jpg' class='w-100' alt='details'></div><div class='col-lg-7 col-xl-8'><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with</p></div></div><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "commentdate": "August 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "commentdate": "August 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "On the other hand, we denounce.",
+        "image": "assets/img/events/2.jpg",
+        "shorttext": "You should be able to find several indispensable facts about motivation in the following paragraphs. If there’s at least one fact you didn’t know before, imagine the difference it might make. It’s so difficult to go on when everything seems to fail, isn’t it.",
+        "eventdate": "31 August 2022",
+        "eventtime": "Sunday (8:00 am -9:00 am)",
+        "location": "56 Thatcher Avenue River Forest",
+        "organizer": "Event Planer",
+        "phone": "+02 1565 1236",
+        "email": "example@example.com",
+        "tags": [
+            4,
+            5,
+            6
+        ],
+        "speakers": [
+            4,
+            5,
+            6
+        ],
+        "htmltext": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><hr><h4>Setting the mood with incense</h4><div class='row align-items-center'><div class='col-lg-6'><ul class='sigma_list sigma_list-2'><li>Lorem ipsum dolor sit amet, consectur</li><li>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do</li><li>Lorem ipsum dolor sit amet, consectur</li><li>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do</li></ul></div></div><blockquote><cite>By Hetmayar</cite><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p></blockquote><hr><div class='row align-items-center'><div class='col-lg-5 col-xl-4 mb-lg-30'> <img src='assets/img/events/details/3.jpg' class='w-100' alt='details'></div><div class='col-lg-7 col-xl-8'><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with</p></div></div><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "commentdate": "August 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "commentdate": "August 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "If you use this site regularly and.",
+        "image": "assets/img/events/3.jpg",
+        "shorttext": "You should be able to find several indispensable facts about motivation in the following paragraphs. If there’s at least one fact you didn’t know before, imagine the difference it might make. It’s so difficult to go on when everything seems to fail, isn’t it.",
+        "eventdate": "31 August 2022",
+        "eventtime": "Sunday (8:00 am -9:00 am)",
+        "location": "56 Thatcher Avenue River Forest",
+        "organizer": "Event Planer",
+        "phone": "+02 1565 1236",
+        "email": "example@example.com",
+        "tags": [
+            1,
+            7,
+            8
+        ],
+        "speakers": [
+            1,
+            7,
+            8
+        ],
+        "htmltext": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><hr><h4>Setting the mood with incense</h4><div class='row align-items-center'><div class='col-lg-6'><ul class='sigma_list sigma_list-2'><li>Lorem ipsum dolor sit amet, consectur</li><li>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do</li><li>Lorem ipsum dolor sit amet, consectur</li><li>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do</li></ul></div></div><blockquote><cite>By Hetmayar</cite><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p></blockquote><hr><div class='row align-items-center'><div class='col-lg-5 col-xl-4 mb-lg-30'> <img src='assets/img/events/details/3.jpg' class='w-100' alt='details'></div><div class='col-lg-7 col-xl-8'><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with</p></div></div><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "commentdate": "August 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "commentdate": "August 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "When our power of choice is untram.",
+        "image": "assets/img/events/4.jpg",
+        "shorttext": "You should be able to find several indispensable facts about motivation in the following paragraphs. If there’s at least one fact you didn’t know before, imagine the difference it might make. It’s so difficult to go on when everything seems to fail, isn’t it.",
+        "eventdate": "31 August 2022",
+        "eventtime": "Sunday (8:00 am -9:00 am)",
+        "location": "56 Thatcher Avenue River Forest",
+        "organizer": "Event Planer",
+        "phone": "+02 1565 1236",
+        "email": "example@example.com",
+        "tags": [
+            2,
+            3,
+            4
+        ],
+        "speakers": [
+            2,
+            3,
+            4
+        ],
+        "htmltext": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><hr><h4>Setting the mood with incense</h4><div class='row align-items-center'><div class='col-lg-6'><ul class='sigma_list sigma_list-2'><li>Lorem ipsum dolor sit amet, consectur</li><li>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do</li><li>Lorem ipsum dolor sit amet, consectur</li><li>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do</li></ul></div></div><blockquote><cite>By Hetmayar</cite><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p></blockquote><hr><div class='row align-items-center'><div class='col-lg-5 col-xl-4 mb-lg-30'> <img src='assets/img/events/details/3.jpg' class='w-100' alt='details'></div><div class='col-lg-7 col-xl-8'><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with</p></div></div><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "commentdate": "August 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "commentdate": "August 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Nor again is there anyone.",
+        "image": "assets/img/events/2.jpg",
+        "shorttext": "You should be able to find several indispensable facts about motivation in the following paragraphs. If there’s at least one fact you didn’t know before, imagine the difference it might make. It’s so difficult to go on when everything seems to fail, isn’t it.",
+        "eventdate": "31 August 2022",
+        "eventtime": "Sunday (8:00 am -9:00 am)",
+        "location": "56 Thatcher Avenue River Forest",
+        "organizer": "Event Planer",
+        "phone": "+02 1565 1236",
+        "email": "example@example.com",
+        "tags": [
+            5,
+            6,
+            7
+        ],
+        "speakers": [
+            5,
+            6,
+            7
+        ],
+        "htmltext": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><hr><h4>Setting the mood with incense</h4><div class='row align-items-center'><div class='col-lg-6'><ul class='sigma_list sigma_list-2'><li>Lorem ipsum dolor sit amet, consectur</li><li>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do</li><li>Lorem ipsum dolor sit amet, consectur</li><li>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do</li></ul></div></div><blockquote><cite>By Hetmayar</cite><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p></blockquote><hr><div class='row align-items-center'><div class='col-lg-5 col-xl-4 mb-lg-30'> <img src='assets/img/events/details/3.jpg' class='w-100' alt='details'></div><div class='col-lg-7 col-xl-8'><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with</p></div></div><p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "commentdate": "August 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "commentdate": "August 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    }
+]

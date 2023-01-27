@@ -1,0 +1,116 @@
+<div class="sidebar">
+    <!-- Search Widget Start -->
+    <div class="sidebar-widget widget-search">
+        <h5 class="widget-title">Search</h5>
+        <form (ngSubmit)="onSubmit()" method="GET">
+            <div class="sigma_search-adv-input">
+                <input type="text" class="form-control" placeholder="Search Posts" name="searchText"
+                    [(ngModel)]="searchText" required>
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </form>
+    </div>
+    <!-- Search Widget End -->
+    <!-- Popular Feed Start -->
+    <div class="sidebar-widget widget-recent-posts">
+        <h5 class="widget-title">Recent Posts</h5>
+        <!-- Data -->
+        <article class="sigma_recent-post" *ngFor="let item of getRecentPost()">
+            <a routerLink="/blog-details/{{item.id}}"><img [src]="item.image[0]" [alt]="item.title"></a>
+            <div class="sigma_recent-post-body">
+                <h6> <a routerLink="/blog-details/{{item.id}}">{{item.title}}</a> </h6>
+                <a routerLink="/blog-details/{{item.id}}"> <i class="far fa-calendar"></i> {{item.postdate}}</a>
+            </div>
+        </article>
+        <!-- Data -->
+    </div>
+    <!-- Popular Feed End -->
+    <!-- Categories Start -->
+    <div class="sidebar-widget widget-categories">
+        <h5 class="widget-title"> Our Categories </h5>
+        <ul class="sidebar-widget-list">
+            <!-- Data -->
+            <li *ngFor="let item of category">
+                <a routerLink="/blog/cat/{{item.id}}">{{item.title}}<span>{{item.count}}</span></a>
+            </li>
+            <!-- Data -->
+        </ul>
+    </div>
+    <!-- Categories End -->
+    <!-- Social Media Start -->
+    <div class="sidebar-widget">
+        <h5 class="widget-title">Never Miss Out</h5>
+        <ul class="sigma_sm square light">
+            <li>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Social Media End -->
+    <!-- Twitter Feed Start -->
+    <div class="sidebar-widget widget-twitter">
+        <h5 class="widget-title">Twitter Feed</h5>
+        <!-- Data -->
+        <div class="twitter-item d-flex align-items-start" *ngFor="let item of feeds">
+            <i class="fab fa-twitter custom-primary me-4 mt-2"></i>
+            <div class="twitter-item-content">
+                <p>{{item.tweet}}</p>
+                <strong>{{item.date}}</strong>
+            </div>
+        </div>
+        <!-- Data -->
+    </div>
+    <!-- Twitter Feed End -->
+    <!-- Instagram Start -->
+    <div class="sidebar-widget widget-ig">
+        <h5 class="widget-title">Instagram</h5>
+        <div class="row">
+            <!-- Data -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-6" *ngFor="let item of instagram | slice:0:9">
+                <a href="#" class="sigma_ig-item">
+                    <img [src]="item.image" alt="ig">
+                </a>
+            </div>
+            <!-- Data -->
+        </div>
+    </div>
+    <!-- Instagram End -->
+    <!-- Popular Tags Start -->
+    <div class="sidebar-widget">
+        <h5 class="widget-title">Popular Tags</h5>
+        <div class="tagcloud">
+            <!-- Data -->
+            <a routerLink="/blog/tag/{{item.id}}" *ngFor="let item of tags">{{item.title}}</a>
+            <!-- Data -->
+        </div>
+    </div>
+    <!-- Popular Tags End -->
+    <!-- Ad banner Start -->
+    <div class="sidebar-widget widget-ad p-0 border-0">
+        <a href="#">
+            <img src="assets/img/blog/ad.jpg" alt="ad">
+            <div>
+                <span>Add a Custom Text</span>
+                Add Banner here
+            </div>
+        </a>
+    </div>
+    <!-- Ad banner End -->
+</div>

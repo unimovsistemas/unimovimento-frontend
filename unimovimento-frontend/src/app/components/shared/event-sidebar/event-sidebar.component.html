@@ -1,0 +1,47 @@
+<!-- Categories Start -->
+<div class="sidebar-widget widget-upcoming-events">
+    <h5 class="widget-title"> Upcoming Events </h5>
+    <ul>
+        <!-- Data -->
+        <li *ngFor="let item of getNextEvent()">
+            <div class="date" [innerHtml]="getDateInitials(item.eventdate)">
+            </div>
+            <div class="event-name">
+                <h6>{{item.title}}</h6>
+                <p>{{item.eventtime}}</p>
+            </div>
+        </li>
+        <!-- Data -->
+    </ul>
+    <div class="text-center">
+        <a routerLink="/events" class="sigma_btn-custom mt-4">See All</a>
+    </div>
+</div>
+<!-- Categories End -->
+<!-- Social Media Start -->
+<div class="sidebar-widget">
+    <h5 class="widget-title">Never Miss Out</h5>
+    <ul class="sigma_sm square light">
+        <li>
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- Social Media End -->

@@ -1,0 +1,144 @@
+<!-- partial:partia/__sidenav.html -->
+<aside class="sigma_aside sigma_aside-right sigma_aside-right-panel sigma_aside-bg"
+    [ngClass]="canvasMethod ? 'open':''">
+    <app-canvas></app-canvas>
+</aside>
+<div class="sigma_aside-overlay aside-trigger-right" (click)="toggleCanvas()"></div>
+<!-- partial -->
+<!-- partial:partia/__mobile-nav.html -->
+<aside class="sigma_aside sigma_aside-left" [ngClass]="navMethod ? 'open':''">
+    <app-mobile-menu></app-mobile-menu>
+</aside>
+<div class="sigma_aside-overlay aside-trigger-left" (click)="toggleNav()"></div>
+<!-- partial -->
+<!-- partial:partia/__header.html -->
+<header class="sigma_header header-3 can-sticky header-absolute">
+    <!-- Middle Header Start -->
+    <div class="sigma_header-middle">
+        <nav class="navbar">
+            <!-- Logo Start -->
+            <div class="sigma_logo-wrapper">
+                <a routerLink="/" class="navbar-brand">
+                    <img src="assets/img/logo.png" alt="logo">
+                </a>
+            </div>
+            <!-- Logo End -->
+            <!-- Menu -->
+            <div class="sigma_header-inner">
+                <div class="sigma_header-top">
+                    <div class="sigma_header-top-inner">
+                        <ul class="sigma_header-top-links">
+                            <li class="menu-item"> <a href="tel:+123456789"> <i class="fal fa-phone"></i> (+123) 123 4567 890</a> </li>
+                            <li class="menu-item"> <a href="mailto:info@example.com"> <i class="fal fa-envelope"></i> info@domain.com</a> </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <!-- Data -->
+                            <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                                *ngFor="let item of navigationtwo">
+                                <a href="javascript:void(0)" *ngIf="item.child">{{item.linkText}}</a>
+                                <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                                <ul class="sub-menu" *ngIf="item.child">
+                                    <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                                        *ngFor="let item of item.submenu">
+                                        <a href="javascript:void(0)" *ngIf="item.child">{{item.linkText}}</a>
+                                        <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                                        <ul class="sub-menu" *ngIf="item.child">
+                                            <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                                                *ngFor="let item of item.submenu">
+                                                <a routerLink="{{item.link}}">{{item.linkText}}</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Data -->
+                        </ul>
+                        <ul class="sigma_header-top-links">
+                            <li class="d-flex align-items-center">
+                                <a routerLink="/broadcast" class="live">
+                                    <i class="fa fa-circle"></i>
+                                    Live
+                                </a>
+                            </li>
+                            <li class="menu-item menu-item-has-children d-flex align-items-center">
+                                <img src="assets/img/flag.png" alt="img">
+                                <a href="#" class="m-0"> Language</a>
+                                <ul class="sub-menu sub-menu-left">
+                                    <li> <a href="#">English</a> </li>
+                                    <li> <a href="#">German</a> </li>
+                                    <li> <a href="#">French</a> </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center justify-content-lg-between">
+                    <ul class="navbar-nav">
+                       <!-- Data -->
+                    <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                    *ngFor="let item of navigation">
+                    <a href="javascript:void(0)" *ngIf="item.child">{{item.linkText}}</a>
+                    <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                    <ul class="sub-menu" *ngIf="item.child">
+                        <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                            *ngFor="let item of item.submenu">
+                            <a href="javascript:void(0)" *ngIf="item.child">{{item.linkText}}</a>
+                            <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                            <ul class="sub-menu" *ngIf="item.child">
+                                <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                                    *ngFor="let item of item.submenu">
+                                    <a routerLink="{{item.link}}">{{item.linkText}}</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Data -->
+                    </ul>
+                    <div class="sigma_header-controls style-2 p-0 border-0">
+                        <ul class="sigma_header-controls-inner pe-3">
+                            <li class="style-2">
+                                <a href="#" class="d-none d-sm-flex align-items-center pe-0">
+                                    <i class="flaticon-bible"></i>
+                                </a>
+                            </li>
+                            <li class="sigma_header-cart style-2">
+                                <a routerLink="/cart"> <i class="flaticon-shopping-cart"></i> </a>
+                                <span class="number">{{cartlength}}</span>
+                                <ul class="cart-dropdown">
+                                    <app-small-cart></app-small-cart>
+                                </ul>
+                            </li>
+                            <li class="sigma_header-wishlist style-2">
+                                <a routerLink="/wishlist"> <i class="flaticon-heart"></i> </a>
+                                <ul class="cart-dropdown">
+                                    <app-small-wishlist></app-small-wishlist>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <div class="sigma_header-controls style-2">
+                <a routerLink="/donation" class="sigma_btn-custom"> Donate Here</a>
+                <ul class="sigma_header-controls-inner">
+                    <!-- Mobile Toggler -->
+                    <li class="aside-toggler style-2 aside-trigger-left" (click)="toggleNav()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Middle Header End -->
+</header>
+<!-- partial -->

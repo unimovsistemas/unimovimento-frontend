@@ -1,0 +1,28 @@
+<!-- volunteers Start -->
+<div class="section section-padding bg-cover bg-center bg-norepeat section-padrao2">
+    <div class="container">
+        <div class="section-title text-center">
+            <h4 class="title text-white">Nossos Voluntários</h4>
+        </div>
+        <div class="row">
+            <!-- Data -->
+            <div class="col-lg-3 col-md-6" *ngFor="let item of lideresAcerteData | slice:0:5">
+                <div class="sigma_volunteers volunteers-4">
+                    <div class="sigma_volunteers-thumb">
+                        <img [src]="item.image" [alt]="item.name">
+                    </div>
+                    <div class="sigma_volunteers-body">
+                        <div class="sigma_volunteers-info">
+                            <p class="text-white">{{item.post}}</p>
+                            <h5 class="text-white">
+                                {{item.name}}
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Data -->
+        </div>
+    </div>
+</div>
+<!-- volunteers End -->

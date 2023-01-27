@@ -1,0 +1,25 @@
+<!-- Icons Start -->
+<div class="section section-padding pt-0">
+    <div class="container">
+        <div class="row">
+            <!-- Data -->
+            <div class="col-lg-4" *ngFor="let item of contactinfo">
+                <div class="sigma_icon-block text-center light icon-block-7">
+                    <i [class]="item.icon"></i>
+                    <div class="sigma_icon-block-content">
+                        <span>{{item.subtitle}} <i class="far fa-arrow-right"></i> </span>
+                        <h5> {{item.title}} </h5>
+                        <!-- Data -->
+                        <p *ngFor="let text of item.text">{{text}}</p>
+                        <!-- Data -->
+                    </div>
+                    <div class="icon-wrapper">
+                        <i [class]="item.icon"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Data -->
+        </div>
+    </div>
+</div>
+<!-- Icons End -->

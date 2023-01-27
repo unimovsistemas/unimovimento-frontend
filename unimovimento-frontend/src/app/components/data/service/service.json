@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "icon": "flaticon-church",
+        "title": "Events",
+        "image": "assets/img/service/5.jpg",
+        "shorttext": "Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod"
+    },
+    {
+        "id": 2,
+        "icon": "flaticon-speech",
+        "title": "Ministries",
+        "image": "assets/img/service/6.jpg",
+        "shorttext": "Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod"
+    },
+    {
+        "id": 3,
+        "icon": "flaticon-praying",
+        "title": "Our Church",
+        "image": "assets/img/service/7.jpg",
+        "shorttext": "Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod"
+    },
+    {
+        "id": 4,
+        "icon": "flaticon-sermon",
+        "title": "Sermons",
+        "image": "assets/img/service/8.jpg",
+        "shorttext": "Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod"
+    },
+    {
+        "id": 5,
+        "icon": "flaticon-charity",
+        "title": "Tithing",
+        "image": "assets/img/service/9.jpg",
+        "shorttext": "Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod"
+    },
+    {
+        "id": 6,
+        "icon": "flaticon-bible",
+        "title": "Property Church",
+        "image": "assets/img/service/10.jpg",
+        "shorttext": "Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod"
+    }
+]

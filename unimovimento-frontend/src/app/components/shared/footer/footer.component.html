@@ -1,0 +1,75 @@
+<!-- Middle Footer -->
+<div class="sigma_footer-middle">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 footer-widget">
+                <div class="d-flex align-items-center justify-content-md-start justify-content-center mt-2">
+                    <i class="far fa-phone custom-primary me-3"></i>
+                    <span>(47) 8906-2538</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-md-start justify-content-center mt-2">
+                    <i class="far fa-envelope custom-primary me-3"></i>
+                    <span>contato@unimovimento.com.br</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-md-start justify-content-center mt-2">
+                    <i class="far fa-map-marker custom-primary me-3"></i>
+                    <span>Rua São Paulo, 890 - Blumenau/SC</span>
+                </div>
+            </div>
+            <!-- Data -->
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 footer-widget" *ngFor="let data of links">
+                <h5 class="widget-title">{{data.title}}</h5>
+                <ul>
+                    <!-- Data -->
+                    <li *ngFor="let item of data.items">
+                        <a routerLink="{{item.link}}">{{item.title}}</a>
+                    </li>
+                    <!-- Data -->
+                </ul>
+            </div>
+            <!-- Data -->
+            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12 d-none d-lg-block footer-widget widget-recent-posts">
+                <h5 class="widget-title">Recent Posts</h5>
+                <!-- Data -->
+                <article class="sigma_recent-post" *ngFor="let item of getRecentPost()">
+                    <a routerLink="/blog-details/{{item.id}}">
+                        <img [src]="item.image[0]" [alt]="item.title">
+                    </a>
+                    <div class="sigma_recent-post-body">
+                        <a routerLink="/blog-details/{{item.id}}"> <i class="far fa-calendar"></i> {{item.postdate}}</a>
+                        <h6> <a routerLink="/blog-details/{{item.id}}">{{item.title}}</a> </h6>
+                    </div>
+                </article>
+                <!-- Data -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer Bottom -->
+<div class="sigma_footer-bottom">
+    <div class="container-fluid">
+        <div class="sigma_footer-copyright">
+            <p style="font-size: 12px"> Copyright © 2022 All Rights Reserved | Created by <a href="https://br.linkedin.com/in/lucas-lulu-92991bb9?trk=profile-badge" class="text-white">Lucas Lulu</a> </p>
+        </div>
+        <div class="sigma_footer-logo">
+            <img src="assets/img/uni-logo2.png" style="height: 120px; width: auto;" alt="logo">
+        </div>
+        <ul class="sigma_sm square">
+            <li>
+                <a href="https://www.facebook.com/umadblu/">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/umadblu/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/user/umadblu/">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

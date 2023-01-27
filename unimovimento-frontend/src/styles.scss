@@ -1,0 +1,305 @@
+$colorPrimary: #ff8200;
+$colorSecondary: #ffe115;
+$colorTerciary: #000;
+$colorQuartary: #fff;
+$colorQuintary: #161616;
+$hoverPrimary: #ff8200;
+
+/* You can add global styles to this file, and also import other style files */
+button:hover,
+button:focus,
+:focus {
+    outline: none!important;
+    text-decoration: none!important;
+    box-shadow: none!important;
+}
+.slick-dots li{
+    width: auto;
+    height: auto;
+}
+.slick-dots li button{
+    padding: 0;
+}
+.sigma_post-categories .sigma_post-category::after,
+.sigma_post-meta .sigma_post-category:last-child::after,
+.slick-dots li button:before{
+    display: none;
+}
+.sigma_ig-item{
+    margin: 0 0px 5px;
+}
+.widget-recent-posts .sigma_recent-post>a{
+    height: 75px;
+}
+.widget-recent-posts .sigma_recent-post>a>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sigma_post-meta .sigma_post-category:after{
+    content: ', ';
+}
+.accordion .card .card-header {
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+.accordion .card .card-header .btn{
+    border: none;
+    width: 100%;
+    border-radius: 0;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.map-marker > span + img{
+    display: none;
+}
+.sigma_sermon-box .sigma_sm.square li a:hover i{
+    color: $colorPrimary;
+}
+.sigma_timeline-nodes:last-child{
+    margin-bottom: 0;
+}
+.sidebar-widget.widget-speakers .card .card-header .btn-link{
+    background: transparent;
+    display: flex;
+    padding: 0;
+    font-weight: normal;
+    text-align: left;
+}
+.sidebar-widget.widget-speakers .card .card-header .btn-link::after,
+.sidebar-widget.widget-speakers .card .card-header .btn-link::before{
+    display: none;
+}
+.sidebar-widget.widget-speakers .card .speaker-image img{
+    width: 80px;
+    object-fit: cover;
+    height: 80px;
+}
+.shop_sidebar .widget-search,
+.shop_sidebar .widget-ad{
+    display: none;
+}
+/* Audio Player */
+.sigma_audio-player{
+    overflow: auto;
+}
+.sigma_audio-player .plyr__controls{
+    padding: 0;
+    width: 100%;
+}
+.sigma_audio-player .plyr__control[data-plyr="settings"],
+.sigma_audio-player .plyr__control[data-plyr="play"]{
+    width: 55px;
+    height: 55px;
+    margin: 0 15px 0 0;
+    background: #ffdbd3;
+    text-align: center;
+    color: $colorPrimary;
+    line-height: 55px;
+    cursor: pointer;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.sigma_audio-player .plyr__control[data-plyr="settings"]{
+    margin-right: 0;
+}
+.sigma_audio-player .plyr__control--overlaid[data-plyr="play"]{
+    display: none;
+}
+.sigma_audio-player .plyr__controls .plyr__controls__item.plyr__volume,
+.sigma_audio-player .plyr__controls .plyr__controls__item.plyr__time,
+.sigma_audio-player .plyr__progress__container{
+    height: 55px;
+    background: #ffdbd3;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+.sigma_audio-player .plyr__progress__container .plyr__progress{
+    width: calc(100% - 35px);
+    left: 15px;
+}
+.sigma_audio-player .plyr__controls .plyr__controls__item.plyr__volume,
+.sigma_audio-player .plyr__controls .plyr__controls__item.plyr__time{
+    width: 60px;
+    justify-content: center;
+    color: $colorPrimary;
+    margin: 0;
+}
+.sigma_audio-player .plyr__controls .plyr__controls__item.plyr__volume{
+    margin-right: 15px;
+}
+.sigma_audio-player .plyr__controls .plyr__controls__item.plyr__volume .plyr__control:hover{
+    background: none;
+    color: inherit;
+}
+.error-texts h1 {
+    font-size: 133px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.error-texts h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.error-texts p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.sigma_product-controls a.active{
+    background-color: $colorPrimary;
+    color: #fff;
+    box-shadow: 0px 10px 50px 0px rgb(53 82 99 / 9%);
+}
+/* Pagination */
+pagination-template .ngx-pagination {
+	margin: 50px 0 0rem;
+	justify-content: center;
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+}
+pagination-template .ngx-pagination li {
+	margin: 0;
+	position: relative;
+}
+pagination-template .ngx-pagination li.pagination-next, pagination-template .ngx-pagination li.pagination-previous {
+	padding: 0;
+	display: block;
+}
+pagination-template .ngx-pagination li.pagination-next span, pagination-template .ngx-pagination li.pagination-previous span, pagination-template .ngx-pagination li a {
+	color: $colorTerciary;
+	border: 1px solid #efefef;
+	background-color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 15px 22px!important;
+	position: relative;
+	margin-left: 15px;
+	display: block;
+	line-height: 1.25;
+    box-shadow: none;
+    border-radius: 0px;
+}
+pagination-template .ngx-pagination li.current {
+	color: #fff;
+	border: 1px solid $colorTerciary;
+	background-color: $colorTerciary;	font-size: 14px;
+	font-weight: 400;
+	padding: 15px 22px!important;
+	position: relative;
+	margin-left: 15px;
+	display: block;
+	line-height: 1.25;
+    box-shadow: none;
+    border-radius: 0px;
+}
+pagination-template .ngx-pagination li.pagination-next::after, pagination-template .ngx-pagination li.pagination-next a:after, pagination-template .ngx-pagination li.pagination-previous a::before, pagination-template .ngx-pagination li.pagination-previous::before {
+	display: none!important;
+}
+pagination-template .ngx-pagination li.pagination-previous a,
+pagination-template .ngx-pagination li.pagination-previous span{
+    margin: 0;
+}
+@media (max-width: 600px){
+    pagination-template .ngx-pagination{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .ngx-pagination.responsive .small-screen{
+        display: none!important;
+    }
+    .ngx-pagination.responsive li:not(.small-screen):not(.pagination-previous):not(.pagination-next) {
+        display: block!important;
+    }
+}
+/* Countdown */
+.sigma_countdown-timer .countdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
+.sigma_countdown-timer .countdown .measurements{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex: unset!important;
+}
+.sigma_countdown-timer .countdown .measurements .measurements-number{
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 1.3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.sigma_countdown-timer .countdown .measurements .divider{
+    display: none;
+}
+.sigma_countdown-timer .countdown .measurements .measurements-text{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Range slider */
+.ngx-slider .ngx-slider-bubble{
+    padding: 1px 5px!important;
+    color: #ffffff!important;
+    font-size: 10px!important;
+    background-color: $colorPrimary;
+    border-radius: 4px;
+}
+.ngx-slider .ngx-slider-bubble::after{
+    position: absolute;
+    display: block;
+    content: "";
+    bottom: -6px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -3px;
+    overflow: hidden;
+    border: 3px solid transparent;
+    border-top-color: $colorPrimary
+}
+.ngx-slider .ngx-slider-bar{
+    background: #e1e4e9!important;
+    height: 12px!important;
+    border-radius: 4px!important;
+}
+.ngx-slider .ngx-slider-selection{
+    background: $colorPrimary !important;
+    border-radius: 0 !important;
+}
+.ngx-slider .ngx-slider-pointer:after {
+    display: none!important;
+}
+.ngx-slider .ngx-slider-pointer{
+    width: 2px!important;
+    height: 18px!important;
+    top: -3px!important;
+    border: 0 solid $colorPrimary;
+    background-color: $colorPrimary !important;
+}
+

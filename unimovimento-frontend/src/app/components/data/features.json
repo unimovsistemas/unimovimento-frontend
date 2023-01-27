@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "icon":"flaticon-church-1",
+        "title":"Ministries",
+        "text":"Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla porttitor accumsan tincidunt."
+    },
+    {
+        "id":2,
+        "icon":"flaticon-sermon",
+        "title":"Sermons",
+        "text":"Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla porttitor accumsan tincidunt."
+    },
+    {
+        "id":3,
+        "icon":"flaticon-praying",
+        "title":"Tithing",
+        "text":"Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla porttitor accumsan tincidunt."
+    }
+]

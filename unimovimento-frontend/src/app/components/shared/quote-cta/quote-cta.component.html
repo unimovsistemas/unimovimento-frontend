@@ -1,0 +1,79 @@
+<div class="section dark-overlay dark-overlay-3 bg-cover bg-center bg-norepeat"
+    [style.background-image]="'url(assets/img/bg1.jpg)'">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-lg-30">
+                <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <i class="far fa-user"></i>
+                                <input type="text" class="form-control transparent" placeholder="Full Name" name="name"
+                                    [(ngModel)]="model.name" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <i class="far fa-envelope"></i>
+                                <input type="email" class="form-control transparent" placeholder="Email Id" name="email"
+                                    [(ngModel)]="model.email" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <i class="far fa-pencil"></i>
+                                <input type="text" class="form-control transparent" placeholder="Subject" name="subject"
+                                    [(ngModel)]="model.subject" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <i class="far fa-phone"></i>
+                                <input type="text" class="form-control transparent" placeholder="Phone No." name="phone"
+                                    [(ngModel)]="model.phone" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <textarea class="form-control transparent" placeholder="Enter Message" rows="4"
+                                    name="message" [(ngModel)]="model.message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <button type="submit" class="sigma_btn-custom d-block w-100"
+                                [disabled]="!contactForm.form.valid"> Get a Quote <i class="far fa-arrow-right"></i>
+                            </button>
+                            <re-captcha (resolved)="resolved($event)" name="recaptcha" [(ngModel)]="model.recaptcha"
+                                siteKey="6LdxUhMaAAAAAIrQt-_6Gz7F_58S4FlPWaxOh5ib" size="invisible"></re-captcha>
+                            <!-- Form Messages -->
+                            <div class="service-error w-100" *ngIf="error">
+                                <ngb-alert type="danger" class="mb-0 w-100 mt-3" [dismissible]="false">
+                                    <strong>Oops!</strong> Something bad happened. Please try again later.
+                                </ngb-alert>
+                            </div>
+                            <div [hidden]="!submitted" class="contact-message w-100">
+                                <div *ngIf="model.id" class="contact-success w-100 mt-3">
+                                    <ngb-alert type="success" class="mb-0 w-100" [dismissible]="false">
+                                        <strong>Success!</strong> Contact form has been successfully submitted.
+                                    </ngb-alert>
+                                </div>
+                            </div> 
+                            <!-- Form Messages -->
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <div class="row">
+                    <!-- Data -->
+                    <div class="col-lg-6" *ngFor="let item of clients | slice:0:6">
+                        <div class="sigma_client">
+                            <img [src]="item.image" alt="client">
+                        </div>
+                    </div>
+                    <!-- Data -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

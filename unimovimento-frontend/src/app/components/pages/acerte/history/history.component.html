@@ -1,0 +1,23 @@
+<!-- History Start -->
+<div class="section light-bg">
+    <div class="container">
+        <div class="sigma_timeline">
+            <!-- Data -->
+            <div class="row g-0 justify-content-end justify-content-md-around align-items-start sigma_timeline-nodes"
+                *ngFor="let item of history">
+                <div class="col-12 col-md-5 order-3 order-md-1 sigma_timeline-content">
+                    <h4>{{item.title}}</h4>
+                    <p>{{item.text}}</p>
+                </div>
+                <div class="col-2 col-sm-1 px-md-3 order-2 sigma_timeline-image text-md-center">
+                    <i class="far fa-circle"></i>
+                </div>
+                <div class="col-12 col-md-5 order-1 order-md-3 pb-3 sigma_timeline-date">
+                    <span>{{item.year}}</span><br><span class="sigma_timeline-month">{{item.date}}</span>
+                </div>
+            </div>
+            <!-- Data -->
+        </div>
+    </div>
+</div>
+<!-- History End -->

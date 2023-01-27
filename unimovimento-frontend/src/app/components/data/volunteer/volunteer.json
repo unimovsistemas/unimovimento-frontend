@@ -1,0 +1,110 @@
+[
+    {
+        "id":1,
+        "image":"assets/img/lideres/Jesse.png",
+        "name":"Jessé Branco",
+        "post":"Pr.",
+        "contactinfo":[
+            {
+                "icon":"fas fa-phone",
+                "title":"Phone",
+                "text":"(123) 456-7890 8, +987 868 6578 648"
+            },
+            {
+                "icon":"fas fa-envelope",
+                "title":"Email",
+                "text":"info@example.com, example@example.com"
+            },
+            {
+                "icon":"fas fa-map-marker-alt",
+                "title":"Address Info",
+                "text":"24 Fifth st., New York, US"
+            }
+        ],
+        "social":[
+            {
+                "icon":"fab fa-facebook-f",
+                "title":"Facebook",
+                "text":"https://pt-br.facebook.com/jesse.branco.5"
+            },
+            {
+                "icon":"fab fa-instagram",
+                "title":"Instagram",
+                "text":"https://www.instagram.com/jessebranco/"
+            }
+        ],
+        "htmltext":"<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>",
+        "skills":[
+            {
+                "title":"Marketing Strategy",
+                "value":84
+            },
+            {
+                "title":"Digital Marketing",
+                "value":70
+            },
+            {
+                "title":"Web Design",
+                "value":85
+            },
+            {
+                "title":"IT Consulting",
+                "value":92
+            }
+        ]
+    },
+    {
+        "id":2,
+        "image":"assets/img/lideres/Sheila.png",
+        "name":"Sheila Branco",
+        "post":"",
+        "contactinfo":[
+            {
+                "icon":"fas fa-phone",
+                "title":"Phone",
+                "text":"(123) 456-7890 8, +987 868 6578 648"
+            },
+            {
+                "icon":"fas fa-envelope",
+                "title":"Email",
+                "text":"info@example.com, example@example.com"
+            },
+            {
+                "icon":"fas fa-map-marker-alt",
+                "title":"Address Info",
+                "text":"24 Fifth st., New York, US"
+            }
+        ],
+        "social":[
+            {
+                "icon":"fab fa-facebook-f",
+                "title":"Facebook",
+                "text":"https://pt-br.facebook.com/sheila.branco1"
+            },
+            {
+                "icon":"fab fa-instagram",
+                "title":"Instagram",
+                "text":"https://www.instagram.com/sheilabranco/"
+            }
+        ],
+        "htmltext":"<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>",
+        "skills":[
+            {
+                "title":"Marketing Strategy",
+                "value":84
+            },
+            {
+                "title":"Digital Marketing",
+                "value":70
+            },
+            {
+                "title":"Web Design",
+                "value":85
+            },
+            {
+                "title":"IT Consulting",
+                "value":92
+            }
+        ]
+    }
+]

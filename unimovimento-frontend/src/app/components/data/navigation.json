@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "linkText": "Home",
+        "child": false
+    },
+    {
+        "id": 2,
+        "linkText": "Sobre",
+        "child": false,
+        "link": "/sobre-nos"
+    },
+    {
+        "id": 3,
+        "linkText": "Agenda",
+        "link": "/agenda",
+        "child": false
+    },
+    {
+        "id": 4,
+        "linkText": "Projetos",
+        "child": false,
+        "link": "#projetos"
+    },
+    {
+        "id": 5,
+        "linkText": "Extensões",
+        "child": true,
+        "submenu": [
+            {
+                "id": 5.1,
+                "link": "/acerte",
+                "linkText": "Acerte"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "linkText": "Ofertas",
+        "link": "/doar",
+        "child": false
+    }
+]

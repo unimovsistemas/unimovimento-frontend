@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "image":"assets/img/banner/png/4.png",
+        "imageposition":"",
+        "title":"GOD GIVE US POWER TO BELIEVE",
+        "text":"We are a church that belives in Jesus christ and the followers and We are a church that belives in Jesus christ.",
+        "position":""
+    },
+    {
+        "id":2,
+        "image":"assets/img/banner/png/5.png",
+        "imageposition":"left",
+        "title":"OPEN HEARTS OPEN HANDS",
+        "text":"We are a church that belives in Jesus christ and the followers and We are a church that belives in Jesus christ.",
+        "position":"offset-lg-6"
+    }
+]

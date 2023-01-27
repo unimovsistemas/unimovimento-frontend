@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "author": [
+            1
+        ],
+        "rating":5,
+        "comment": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus."
+    },
+    {
+        "id": 2,
+        "author": [
+            2
+        ],
+        "rating":4,
+        "comment": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus."
+    },
+    {
+        "id": 3,
+        "author": [
+            3
+        ],
+        "rating":5,
+        "comment": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus."
+    }
+]

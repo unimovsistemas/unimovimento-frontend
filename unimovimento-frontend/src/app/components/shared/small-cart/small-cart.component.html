@@ -1,0 +1,11 @@
+<li *ngFor="let item of cartItems">
+    <a routerLink="/product-single/{{item.id}}" class="sigma_cart-product-wrapper">
+        <img [src]="item.image[0]" [alt]="item.title">
+        <div class="sigma_cart-product-body">
+            <h6>{{item.title}}</h6>
+            <div class="sigma_product-price justify-content-start">
+                <span>{{item.price * (100 - item.discount) / 100 | number:'1.2-2'}}$</span>
+            </div>
+        </div>
+    </a>
+</li>

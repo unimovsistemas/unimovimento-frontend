@@ -1,0 +1,734 @@
+[
+    {
+        "id": 1,
+        "title": "Kettle Tea pot",
+        "image": [
+            "assets/img/products/0.jpg",
+            "assets/img/products/1.jpg",
+            "assets/img/products/2.jpg",
+            "assets/img/products/3.jpg"
+        ],
+        "discount": 10,
+        "price": 34,
+        "rating": 5,
+        "category": [
+            1,
+            2,
+            3
+        ],
+        "tags": [
+            1,
+            2,
+            3
+        ],
+        "stock": true,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "addinfo": [
+            {
+                "title": "Color",
+                "text": "blue, red, yellow, green"
+            },
+            {
+                "title": "Material",
+                "text": "wood, plastic, stainless steel"
+            }
+        ],
+        "shorttext": "Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+        "htmltext": "<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Bottles",
+        "image": [
+            "assets/img/products/1.jpg",
+            "assets/img/products/2.jpg",
+            "assets/img/products/3.jpg",
+            "assets/img/products/4.jpg"
+        ],
+        "discount": 8,
+        "price": 56,
+        "rating": 4,
+        "category": [
+            4,
+            5,
+            6
+        ],
+        "tags": [
+            4,
+            5,
+            6
+        ],
+        "stock": true,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "addinfo": [
+            {
+                "title": "Color",
+                "text": "blue, red, yellow, green"
+            },
+            {
+                "title": "Material",
+                "text": "wood, plastic, stainless steel"
+            }
+        ],
+        "shorttext": "Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+        "htmltext": "<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Lamp",
+        "image": [
+            "assets/img/products/2.jpg",
+            "assets/img/products/3.jpg",
+            "assets/img/products/4.jpg",
+            "assets/img/products/5.jpg"
+        ],
+        "discount": 15,
+        "price": 29,
+        "rating": 4,
+        "category": [
+            1,
+            7,
+            8
+        ],
+        "tags": [
+            1,
+            7,
+            8
+        ],
+        "stock": true,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "addinfo": [
+            {
+                "title": "Color",
+                "text": "blue, red, yellow, green"
+            },
+            {
+                "title": "Material",
+                "text": "wood, plastic, stainless steel"
+            }
+        ],
+        "shorttext": "Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+        "htmltext": "<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Hand Cream",
+        "image": [
+            "assets/img/products/3.jpg",
+            "assets/img/products/4.jpg",
+            "assets/img/products/5.jpg",
+            "assets/img/products/6.jpg"
+        ],
+        "discount": "",
+        "price": 67,
+        "rating": 5,
+        "category": [
+            2,
+            3,
+            4
+        ],
+        "tags": [
+            2,
+            3,
+            4
+        ],
+        "stock": true,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "addinfo": [
+            {
+                "title": "Color",
+                "text": "blue, red, yellow, green"
+            },
+            {
+                "title": "Material",
+                "text": "wood, plastic, stainless steel"
+            }
+        ],
+        "shorttext": "Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+        "htmltext": "<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Basic Chair",
+        "image": [
+            "assets/img/products/4.jpg",
+            "assets/img/products/5.jpg",
+            "assets/img/products/6.jpg",
+            "assets/img/products/7.jpg"
+        ],
+        "discount": "",
+        "price": 65,
+        "rating": 3,
+        "category": [
+            5,
+            6,
+            7
+        ],
+        "tags": [
+            5,
+            6,
+            7
+        ],
+        "stock": true,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "addinfo": [
+            {
+                "title": "Color",
+                "text": "blue, red, yellow, green"
+            },
+            {
+                "title": "Material",
+                "text": "wood, plastic, stainless steel"
+            }
+        ],
+        "shorttext": "Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+        "htmltext": "<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Luxury Chair",
+        "image": [
+            "assets/img/products/5.jpg",
+            "assets/img/products/6.jpg",
+            "assets/img/products/7.jpg",
+            "assets/img/products/8.jpg"
+        ],
+        "discount": 10,
+        "price": 78,
+        "rating": 4,
+        "category": [
+            1,
+            2,
+            8
+        ],
+        "tags": [
+            1,
+            2,
+            8
+        ],
+        "stock": true,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "addinfo": [
+            {
+                "title": "Color",
+                "text": "blue, red, yellow, green"
+            },
+            {
+                "title": "Material",
+                "text": "wood, plastic, stainless steel"
+            }
+        ],
+        "shorttext": "Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+        "htmltext": "<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Office Chair",
+        "image": [
+            "assets/img/products/6.jpg",
+            "assets/img/products/7.jpg",
+            "assets/img/products/8.jpg",
+            "assets/img/products/9.jpg"
+        ],
+        "discount": "",
+        "price": 86,
+        "rating": 4,
+        "category": [
+            3,
+            4,
+            5
+        ],
+        "tags": [
+            3,
+            4,
+            5
+        ],
+        "stock": true,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "addinfo": [
+            {
+                "title": "Color",
+                "text": "blue, red, yellow, green"
+            },
+            {
+                "title": "Material",
+                "text": "wood, plastic, stainless steel"
+            }
+        ],
+        "shorttext": "Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+        "htmltext": "<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Steel Chair",
+        "image": [
+            "assets/img/products/7.jpg",
+            "assets/img/products/8.jpg",
+            "assets/img/products/9.jpg",
+            "assets/img/products/10.jpg"
+        ],
+        "discount": "",
+        "price": 84,
+        "rating": 3,
+        "category": [
+            6,
+            7,
+            8
+        ],
+        "tags": [
+            6,
+            7,
+            8
+        ],
+        "stock": true,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "addinfo": [
+            {
+                "title": "Color",
+                "text": "blue, red, yellow, green"
+            },
+            {
+                "title": "Material",
+                "text": "wood, plastic, stainless steel"
+            }
+        ],
+        "shorttext": "Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+        "htmltext": "<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Wood Chair",
+        "image": [
+            "assets/img/products/8.jpg",
+            "assets/img/products/9.jpg",
+            "assets/img/products/10.jpg",
+            "assets/img/products/11.jpg"
+        ],
+        "discount": 12,
+        "price": 45,
+        "rating": 3,
+        "category": [
+            1,
+            2,
+            3
+        ],
+        "tags": [
+            1,
+            2,
+            3
+        ],
+        "stock": true,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "addinfo": [
+            {
+                "title": "Color",
+                "text": "blue, red, yellow, green"
+            },
+            {
+                "title": "Material",
+                "text": "wood, plastic, stainless steel"
+            }
+        ],
+        "shorttext": "Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+        "htmltext": "<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Stamps",
+        "image": [
+            "assets/img/products/9.jpg",
+            "assets/img/products/10.jpg",
+            "assets/img/products/11.jpg",
+            "assets/img/products/0.jpg"
+        ],
+        "discount": "",
+        "price": 10,
+        "rating": 34,
+        "category": [
+            4,
+            5,
+            6
+        ],
+        "tags": [
+            4,
+            5,
+            6
+        ],
+        "stock": true,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "addinfo": [
+            {
+                "title": "Color",
+                "text": "blue, red, yellow, green"
+            },
+            {
+                "title": "Material",
+                "text": "wood, plastic, stainless steel"
+            }
+        ],
+        "shorttext": "Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+        "htmltext": "<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Work Bench",
+        "image": [
+            "assets/img/products/10.jpg",
+            "assets/img/products/11.jpg",
+            "assets/img/products/0.jpg",
+            "assets/img/products/1.jpg"
+        ],
+        "discount": "",
+        "price": 44,
+        "rating": 3,
+        "category": [
+            1,
+            7,
+            8
+        ],
+        "tags": [
+            1,
+            7,
+            8
+        ],
+        "stock": true,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "addinfo": [
+            {
+                "title": "Color",
+                "text": "blue, red, yellow, green"
+            },
+            {
+                "title": "Material",
+                "text": "wood, plastic, stainless steel"
+            }
+        ],
+        "shorttext": "Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+        "htmltext": "<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Mosaic Chair",
+        "image": [
+            "assets/img/products/11.jpg",
+            "assets/img/products/0.jpg",
+            "assets/img/products/1.jpg",
+            "assets/img/products/2.jpg"
+        ],
+        "discount": "",
+        "price": 65,
+        "rating": 4,
+        "category": [
+            2,
+            3,
+            4
+        ],
+        "tags": [
+            2,
+            3,
+            4
+        ],
+        "stock": true,
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "addinfo": [
+            {
+                "title": "Color",
+                "text": "blue, red, yellow, green"
+            },
+            {
+                "title": "Material",
+                "text": "wood, plastic, stainless steel"
+            }
+        ],
+        "shorttext": "Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+        "htmltext": "<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica</p>",
+        "reviews": [
+            {
+                "user": [
+                    1
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+            },
+            {
+                "user": [
+                    2
+                ],
+                "rating": 5,
+                "commentdate": "June 30 2022",
+                "comment": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches"
+            }
+        ]
+    }
+]

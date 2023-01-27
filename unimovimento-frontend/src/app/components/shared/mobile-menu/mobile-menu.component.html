@@ -1,0 +1,23 @@
+<!--<a routerLink="/" class="navbar-brand"> <img src="assets/img/logo.png" alt="logo"> </a> -->
+<!-- Menu -->
+<ul>
+    <!-- Data -->
+    <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'" *ngFor="let item of navigation">
+        <a href="javascript:void(0)" *ngIf="item.child" (click)="trigger(item)">{{item.linkText}}</a>
+        <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+        <ul class="sub-menu" *ngIf="item.child" [ngClass]="item.open ? 'd-block' : ''">
+            <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                *ngFor="let item of item.submenu">
+                <a href="javascript:void(0)" *ngIf="item.child" (click)="trigger(item)">{{item.linkText}}</a>
+                <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                <ul class="sub-menu" *ngIf="item.child" [ngClass]="item.open ? 'd-block' : ''">
+                    <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                        *ngFor="let item of item.submenu">
+                        <a routerLink="{{item.link}}">{{item.linkText}}</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <!-- Data -->
+</ul>

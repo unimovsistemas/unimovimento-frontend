@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "author": [
+            1
+        ],
+        "text": "Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "position": "marker-1",
+        "image": false
+    },
+    {
+        "id": 2,
+        "author": [
+            2
+        ],
+        "text": "Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "position": "marker-2",
+        "image": false
+    },
+    {
+        "id": 3,
+        "author": [
+            3
+        ],
+        "text": "Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "position": "marker-3",
+        "image": false
+    },
+    {
+        "id": 4,
+        "author": [
+            4
+        ],
+        "text": "Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "position": "marker-4 right",
+        "image": false
+    },
+    {
+        "id": 5,
+        "author": [
+            5
+        ],
+        "text": "Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "position": "marker-5 right",
+        "image": true
+    },
+    {
+        "id": 6,
+        "author": [
+            6
+        ],
+        "text": "Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "position": "marker-6 right",
+        "image": true
+    }
+]

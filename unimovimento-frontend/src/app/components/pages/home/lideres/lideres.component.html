@@ -1,0 +1,37 @@
+<!-- volunteers Start -->
+<div class="section section-padding bg-cover bg-center bg-norepeat section-padrao">
+    <div class="container">
+        <div class="section-title text-center">
+            <p class="subtitle text-white">Liderança</p>
+            <h4 class="title text-white">Nossos Pastores</h4>
+        </div>
+        <div class="row">
+            <!-- Data -->
+            <div class="col-lg-6 col-md-6" *ngFor="let item of lideresData | slice:0:4">
+                <div class="sigma_volunteers volunteers-4">
+                    <div class="sigma_volunteers-thumb">
+                        <img [src]="item.image" [alt]="item.name">
+                        <ul class="sigma_sm" [ngClass]="item.visible ? 'visible':''">
+                            <li>
+                                <a href="javascript:void(0)" class="trigger-volunteers-socials"
+                                    (click)="socialTrigger(item)">
+                                    <i class="fal fa-plus"></i>
+                                </a>
+                            </li>
+                            <li *ngFor="let social of item.social"> <a href="{{social.text}}" target="_blank"> <i [class]="social.icon"></i> </a> </li>
+                        </ul>
+                    </div>
+                    <div class="sigma_volunteers-body">
+                        <div class="sigma_volunteers-info">
+                            <h5 class="text-white">
+                                <a href="javascript:void(0)">{{item.name}}</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Data -->
+        </div>
+    </div>
+</div>
+<!-- volunteers End -->

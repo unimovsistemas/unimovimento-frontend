@@ -1,0 +1,133 @@
+<!-- partial:partia/__sidenav.html -->
+<aside class="sigma_aside sigma_aside-right sigma_aside-right-panel sigma_aside-bg"
+    [ngClass]="canvasMethod ? 'open':''">
+    <app-canvas></app-canvas>
+</aside>
+<div class="sigma_aside-overlay aside-trigger-right" (click)="toggleCanvas()"></div>
+<!-- partial -->
+<!-- partial:partia/__mobile-nav.html -->
+<aside class="sigma_aside sigma_aside-left" [ngClass]="navMethod ? 'open':''">
+    <app-mobile-menu></app-mobile-menu>
+</aside>
+<div class="sigma_aside-overlay aside-trigger-left" (click)="toggleNav()"></div>
+<!-- partial -->
+<!-- partial:partia/__header.html -->
+<header class="sigma_header header-1 can-sticky header-absolute" [ngClass]="windowScrolled ? 'sticky':''">
+    <!-- Top Header Start -->
+    <div class="sigma_header-top">
+        <div class="container-fluid">
+            <div class="sigma_header-top-inner">
+                <ul class="sigma_header-top-links">
+                    <li class="menu-item"> <a href="tel:+554789062538"> <i class="fal fa-phone"></i>(47) 8906-2538</a> </li>
+                    <li class="menu-item"> <a href="mailto:contato@unimovimento.com.br"> <i class="fal fa-envelope"></i>contato@unimovimento.com.br</a> </li>
+                </ul>
+                <div class="sigma_header-middle hidde-mobile">
+                    <div class="navbar p-0 shadow-none bg-transparent">
+                        <ul class="navbar-nav">
+                            <!-- Data -->
+                            <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                                *ngFor="let item of navigationtwo">
+                                <a href="javascript:void(0)" *ngIf="item.child">{{item.linkText}}</a>
+                                <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                                <ul class="sub-menu" *ngIf="item.child">
+                                    <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                                        *ngFor="let item of item.submenu">
+                                        <a href="javascript:void(0)" *ngIf="item.child">{{item.linkText}}</a>
+                                        <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                                        <ul class="sub-menu" *ngIf="item.child">
+                                            <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                                                *ngFor="let item of item.submenu">
+                                                <a routerLink="{{item.link}}">{{item.linkText}}</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Data -->
+                        </ul>
+                    </div>
+                </div>
+                <ul class="sigma_sm">
+                    <li class="d-flex align-items-center">
+                        <a routerLink="/broadcast" class="live">
+                            <i class="fa fa-circle"></i>
+                            Live
+                        </a>
+                    </li>
+                    <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+                    <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+                    <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Top Header End -->
+    <!-- Middle Header Start -->
+    <div class="sigma_header-middle">
+        <div class="container-fluid">
+            <nav class="navbar">
+                <!-- Logo Start -->
+                <div class="sigma_logo-wrapper">
+                    <a routerLink="/" class="navbar-brand">
+                        <img src="assets/img/uni-logo.png" class="logo-nav" width="208" alt="logo">
+                    </a>
+                </div>
+                <!-- Logo End -->
+                <!-- Menu -->
+                <ul class="navbar-nav">
+                    <!-- Data -->
+                    <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                        *ngFor="let item of navigation">
+                        <a href="javascript:void(0)" *ngIf="item.child">{{item.linkText}}</a>
+                        <a href="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                        <ul class="sub-menu" *ngIf="item.child">
+                            <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                                *ngFor="let item of item.submenu">
+                                <a href="javascript:void(0)" *ngIf="item.child">{{item.linkText}}</a>
+                                <a routerLink="{{item.link}}" *ngIf="!item.child">{{item.linkText}}</a>
+                                <ul class="sub-menu" *ngIf="item.child">
+                                    <li [ngClass]="item.child ? 'menu-item menu-item-has-children':'menu-item'"
+                                        *ngFor="let item of item.submenu">
+                                        <a routerLink="{{item.link}}">{{item.linkText}}</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Data -->
+                </ul>
+                <!-- Controls -->
+                <div class="sigma_header-controls style-2">
+                    <ul class="sigma_header-controls-inner">
+                        <!-- Desktop Toggler -->
+                        <li class="aside-toggler style-2 aside-trigger-right desktop-toggler" (click)="toggleCanvas()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </li>
+                        <!-- Mobile Toggler -->
+                        <li class="aside-toggler style-2 aside-trigger-left" (click)="toggleNav()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Middle Header End -->
+</header>
+<!-- partial -->

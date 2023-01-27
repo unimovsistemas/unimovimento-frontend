@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "image":"assets/img/oferta/01.png",
+        "title":"DOE",
+        "shorttext":"No projeto DOE, evangelizamos todas as faixas etárias através de palestras, brincadeiras, teatros, dança, música, distribuição de alimento, construção, reforma entre outros. Alcançamos a cidade através do evangelismo de porta em porta, culto na praça e desfiles pela cidade. Você sente no coração Deus te motivando a investir financeiramente neste projeto?",
+        "goal":85000,
+        "raised":52384,
+        "link": "/old/public/doar"
+    },
+    {
+        "id":2,
+        "image":"assets/img/oferta/02.png",
+        "title":"UNI BASE",
+        "shorttext":"Como estratégia, para este tempo e também para as próximas gerações, Deus nos deu o projeto de uma Base ecologicamente correta, um espaço pensado para juventude, para a comunidade cristã e a sociedade em geral, com a finalidade de ser um espaço para desfrutar de tempo de qualidade com Deus e com próximo. Você sente no coração Deus te motivando a investir financeiramente neste projeto?",
+        "goal":78000,
+        "raised":49444,
+        "link": "/old/public/base"
+    }
+]

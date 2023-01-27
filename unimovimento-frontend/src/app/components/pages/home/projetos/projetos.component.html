@@ -1,0 +1,30 @@
+<!-- Donation Start -->
+<div class="section section-padding pt-0" id="projetos">
+    <div class="container">
+        <div class="section-title text-center">
+            <br/>
+            <h4 class="title">Projetos</h4>
+        </div>
+        <div class="row">
+            <!-- Data -->
+            <div class="col-lg-6 col-md-6" *ngFor="let item of donationblock | slice:0:3">
+                <div class="sigma_service style-2">
+                    <div class="sigma_service-thumb">
+                        <img [src]="item.image" [alt]="item.title">
+                    </div>
+                    <div class="sigma_service-body">
+                        <h5>
+                            <a routerLink="/donation">{{item.title}}</a>
+                        </h5>
+                        <p>{{item.shorttext}}</p>
+                        <a href="{{item.link }}" target="_blank" class="sigma_btn-custom">
+                            Oferte
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Data -->
+        </div>
+    </div>
+</div>
+<!-- Donation End -->

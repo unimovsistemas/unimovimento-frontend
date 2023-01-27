@@ -1,0 +1,45 @@
+<div class="sidebar">
+    <!-- Search Start -->
+    <div class="sidebar-widget widget-search">
+        <h6 class="widget-title">Search</h6>
+        <form (ngSubmit)="onSubmit()" method="GET">
+            <div class="sigma_search-adv-input">
+                <input type="text" class="form-control" placeholder="Look for Products" name="searchText"
+                    [(ngModel)]="searchText" required>
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </form>
+    </div>
+    <!-- Search End -->
+    <!-- Filter: Price Start -->
+    <div class="sidebar-widget">
+        <h5 class="widget-title"> Price </h5>
+        <ngx-slider [(value)]="priceFilter[0]" [(highValue)]="priceFilter[1]" [options]="priceFilterOptions"
+            [(ngModel)]="priceFilter" (click)="handlePriceChange()">
+        </ngx-slider>
+    </div>
+    <!-- Filter: Price End -->
+    <!-- Tags Start -->
+    <div class="sidebar-widget widget-categories">
+        <h5 class="widget-title"> Our Categories </h5>
+        <ul class="sidebar-widget-list">
+            <!-- Data -->
+            <li *ngFor="let item of category | slice:0:4">
+                <a routerLink="/shop/cat/{{item.id}}">{{item.title}} <span>{{item.count}}</span></a>
+            </li>
+            <!-- Data -->
+        </ul>
+    </div>
+    <!-- Tags End -->
+    <!-- Ad banner Start -->
+    <div class="sidebar-widget widget-ad p-0 border-0">
+        <a href="#">
+            <img src="assets/img/blog/ad2.jpg" alt="ad">
+            <div>
+                <span>Add a Custom Text</span>
+                Add Banner here
+            </div>
+        </a>
+    </div>
+    <!-- Ad banner End -->
+</div>

@@ -1,0 +1,69 @@
+<!-- Map Start -->
+<div class="sigma_map">
+    <iframe title="contact map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9914406081493!2d2.292292615201654!3d48.85837360866272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sin!4v1571115084828!5m2!1sen!2sin"
+        allowfullscreen=""></iframe>
+</div>
+<!-- Map End -->
+<!-- Contact form Start -->
+<div class="section mt-negative pt-0">
+    <div class="container">
+        <form class="sigma_box box-lg m-0" (ngSubmit)="onSubmit()" #contactForm="ngForm">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <i class="far fa-user"></i>
+                        <input type="text" class="form-control dark" placeholder="Full Name" name="name"
+                            [(ngModel)]="model.name" required>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <i class="far fa-envelope"></i>
+                        <input type="email" class="form-control dark" placeholder="Email Id" name="email"
+                            [(ngModel)]="model.email" required>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <i class="far fa-pencil"></i>
+                        <input type="text" class="form-control dark" placeholder="Subject" name="subject"
+                            [(ngModel)]="model.subject" required>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <i class="far fa-phone"></i>
+                        <input type="text" class="form-control dark" placeholder="Phone No." name="phone"
+                            [(ngModel)]="model.phone" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Enter Message" cols="45" rows="5" class="form-control dark" name="message"
+                    [(ngModel)]="model.message" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="sigma_btn-custom" name="button" [disabled]="!contactForm.form.valid">Submit
+                    Now</button>
+                <re-captcha (resolved)="resolved($event)" name="recaptcha" [(ngModel)]="model.recaptcha"
+                    siteKey="6LdxUhMaAAAAAIrQt-_6Gz7F_58S4FlPWaxOh5ib" size="invisible"></re-captcha>
+            </div>
+            <!-- Form Messages -->
+            <div class="service-error w-100" *ngIf="error">
+                <ngb-alert type="danger" class="mb-0 w-100 mt-3" [dismissible]="false">
+                    <strong>Oops!</strong> Something bad happened. Please try again later.
+                </ngb-alert>
+            </div>
+            <div [hidden]="!submitted" class="contact-message w-100">
+                <div *ngIf="model.id" class="contact-success w-100 mt-3">
+                    <ngb-alert type="success" class="mb-0 w-100" [dismissible]="false">
+                        <strong>Success!</strong> Contact form has been successfully submitted.
+                    </ngb-alert>
+                </div>
+            </div>
+            <!-- Form Messages -->
+        </form>
+    </div>
+</div>
+<!-- Contact form End -->

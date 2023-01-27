@@ -1,0 +1,23 @@
+<!-- partial:partia/__subheader.html -->
+<breadcrumb #parent>
+    <div class="header-absolute"></div>
+    <div class="sigma_subheader dark-overlay dark-overlay-2" [style.background-image]="img">
+        <div class="container">
+            <div class="sigma_subheader-inner">
+                <ng-template ngFor let-route [ngForOf]="parent.breadcrumbs">
+                    <div class="sigma_subheader-text">
+                        <h1>{{ titulo }}</h1>
+                        <!--<p class="blockquote light"> {{descricao}} </p>-->
+                    </div>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a routerLink="/" class="btn-link">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">{{ route.displayName }}</li>
+                        </ol>
+                    </nav>
+                </ng-template>
+            </div>
+        </div>
+    </div>
+</breadcrumb>
+<!-- partial -->

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?2390270279c4360bcfa88c8d00b7994f") format("truetype"),
+url("./flaticon.woff?2390270279c4360bcfa88c8d00b7994f") format("woff"),
+url("./flaticon.woff2?2390270279c4360bcfa88c8d00b7994f") format("woff2"),
+url("./flaticon.eot?2390270279c4360bcfa88c8d00b7994f#iefix") format("embedded-opentype"),
+url("./flaticon.svg?2390270279c4360bcfa88c8d00b7994f#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, 
+i[class*=" flaticon-"]:before,
+span[class^="flaticon-"]:before, 
+span[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-heart:before {
+    content: "\f101";
+}
+.flaticon-like:before {
+    content: "\f102";
+}
+.flaticon-heart-1:before {
+    content: "\f103";
+}
+.flaticon-shopping-cart:before {
+    content: "\f104";
+}
+.flaticon-right-quote:before {
+    content: "\f105";
+}
+.flaticon-call:before {
+    content: "\f106";
+}
+.flaticon-telephone:before {
+    content: "\f107";
+}
+.flaticon-email:before {
+    content: "\f108";
+}
+.flaticon-message:before {
+    content: "\f109";
+}
+.flaticon-paper-plane:before {
+    content: "\f10a";
+}
+.flaticon-magnifying-glass:before {
+    content: "\f10b";
+}
+.flaticon-bible:before {
+    content: "\f10c";
+}
+.flaticon-church:before {
+    content: "\f10d";
+}
+.flaticon-church-1:before {
+    content: "\f10e";
+}
+.flaticon-sun:before {
+    content: "\f10f";
+}
+.flaticon-church-2:before {
+    content: "\f110";
+}
+.flaticon-sermon:before {
+    content: "\f111";
+}
+.flaticon-speech:before {
+    content: "\f112";
+}
+.flaticon-praying:before {
+    content: "\f113";
+}
+.flaticon-cross:before {
+    content: "\f114";
+}
+.flaticon-church-3:before {
+    content: "\f115";
+}
+.flaticon-charity:before {
+    content: "\f116";
+}
+.flaticon-church-bell:before {
+    content: "\f117";
+}
