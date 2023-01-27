@@ -1,7 +1,9 @@
 <h1 align="center"> UNIMOVIMENTO FRONTEND </h1>
 <h2 align="center"> 💻 Sistema para Interação com Usuário para Gerenciamento do Uni Movimento 💻</h2>
 
-<h3 align="center">***********🔧 INSTRUçÕES 🔧***********</h3>
+### 🏗️ Em Construção...🏗️
+
+<h3 align="center">***********🔧 INSTRUÇÕES 🔧***********</h3>
 
 ### Versão do projeto
 1.0.0
@@ -95,5 +97,3 @@ Execute`ng build` para buildar o projeto. Os artefatos serão gravados no diret�
 ## Rodando testes
 
 Execute `ng test` para rodar os testes unitários via [Karma](https://karma-runner.github.io).
-
-### 🏗️ Em Construção...🏗️
